@@ -1,0 +1,25 @@
+{
+    "name": "tsterker/laravel-flextable",
+    "description": "Dynamically migrate and seed databases",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tim Sterker",
+            "email": "tim.sterker@gleif.org"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Tsterker\\Flextable\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tsterker\\Tests\\Flextable\\": "tests/"
+      }
+    },
+    "require": {},
+    "require-dev": {
+        "graham-campbell/testbench": "^5.3"
+    }
+}
